@@ -7,7 +7,7 @@
 * Samples per frame = 100
 ### 2. AWGN Channel
 * Initial seed = 67
-* Number of bits per symbol = 1
+* Number of bits per symbol = 1 except in the QAM 16= 4 and in the QAM 64 = 6 
 * Input signal power = 1
 * Symbol period = 1s
 * Simulation time = 1000s
