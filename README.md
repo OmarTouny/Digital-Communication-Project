@@ -79,7 +79,7 @@
 7.	The Error Rate Calculation block counts symbols that differ between the received signal and the transmitted signal.
 8.	The To Workspace block, labeled Ber outputs the results to the workspace to use when plotting results.
 ## The Modulation Schema
-![QAM16](/16QAM/Scheme.png)
+![QAM16](/16QAM/Schema.png)
 ## Instruction SET:
 * Random Integer Generator set size = 16
 
