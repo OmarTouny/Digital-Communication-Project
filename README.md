@@ -36,7 +36,7 @@
 ![After Noise](/QPSK/AfterNoise.png)
 
 ## BER performance figure:
-![Error Curve](/QPSK/ErrorCurveQPSK.png)
+![Error Curve](/QPSK/ErrorCurve.png)
 ------------------------------------------------------
 
 # Frequency Shift Keying Modulation
@@ -62,7 +62,7 @@
 ![After Noise](/FSK/AfterNoise.png)
 
 ## BER performance figure:
-![Error Curve](/FSK/ErrorCurveFSK.png)
+![Error Curve](/FSK/ErrorCurve.png)
 
 ------------------------------------------------------
 
@@ -79,18 +79,18 @@
 7.	The Error Rate Calculation block counts symbols that differ between the received signal and the transmitted signal.
 8.	The To Workspace block, labeled Ber outputs the results to the workspace to use when plotting results.
 ## The Modulation Schema
-![QAM16 ](/QAM16/Scheme.png)
+![QAM16](/16QAM/Scheme.png)
 ## Instruction SET:
 * Random Integer Generator set size = 16
 
 * Modulator and demodulation: Normalization method = Average power
 ## Scatter Plot:
-![Before Noise](/QAM16/BeforeNoise.png)
+![Before Noise](/16QAM/BeforNoise.png)
 
-![After Noise](/QAM16/AfterNoise.png)
+![After Noise](/16QAM/AfterNoise.png)
 
 ## BER performance figure:
-![Error Curve](/QAM16/ErrorCurveQAM16.png)
+![Error Curve](/16QAM/CurveError.png)
 
 -----------------------------------------------------------
 # 64-Quadrature Amplitude Modulation
@@ -107,7 +107,7 @@
 7.	The Error Rate Calculation block counts symbols that differ between the received signal and the transmitted signal.
 8.	The To Workspace block, labeled Ber outputs the results to the workspace to use when plotting results.
 ## The Modulation Schema
-![QAM64](/QAM64/Scheme.png)
+![QAM64](/64QAM/Scheme.png)
 ## Instruction SET:
 * Random Integer Generator set size = 64
 
@@ -115,12 +115,12 @@
 
 Normalization method = Average power
 ## Scatter Plot:
-![ Before Noise](/QAM64/BeforeNoise.png)
+![ Before Noise](/64QAM/BeforNoise.png)
 
-![ After Noise](/QAM64/AfterNoise.png)
+![ After Noise](/64QAM/AfterNoise.png)
 
 ## BER performance figure:
-![Error Curve](/QAM64/ErrorCurveQAM64.png)
+![Error Curve](/64QAM/ErrorCurve.png)
 
 ------------------------------------------------------------------
 
@@ -138,16 +138,16 @@ Normalization method = Average power
 7.	The Error Rate Calculation block counts symbols that differ between the received signal and the transmitted signal.
 8.	The To Workspace block, labeled Ber outputs the results to the workspace to use when plotting results.
 ## The Modulation Schema
-![BPSK](/BPSK/Scheme.png)
+![BPSK](/BPSk/Scheme.png)
 ## Instruction SET:
 * Random Generator set size = 2
 ## Scatter Plot:
-![Before Noise](/BPSK/BeforeNoise.png)
+![Before Noise](/BPSk/BeforNoise.png)
 
-![After Noise](/BPSK/AfterNoise.png)
+![After Noise](/BPSk/AfterNoise.png)
 
 ## BER performance figure:
-![Error Curve](/BPSK/ErrorCurveBPSK.png)
+![Error Curve](/BPSk/ErrorCurve.png)
 
 
 
